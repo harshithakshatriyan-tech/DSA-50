@@ -1,5 +1,4 @@
 public class CheckWildcard {
-
     public static boolean isMatch(String text, String pattern) {
         int n = text.length();
         int m = pattern.length();
