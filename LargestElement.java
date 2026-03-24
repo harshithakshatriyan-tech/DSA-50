@@ -10,7 +10,7 @@ public class LargestElement {
             arr[i] = sc.nextInt();
         }
         int largest = findLargest(arr);
-        
+
         System.out.println("The largest element in the array is: " + largest);
     }
 
@@ -23,5 +23,6 @@ public class LargestElement {
         }
         return largest;
     }
+
     
 }
