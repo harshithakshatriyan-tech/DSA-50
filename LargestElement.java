@@ -17,7 +17,7 @@ public class LargestElement {
     public static int findLargest(int[] arr) {
         int largest = arr[0];
         for (int i = 1; i < arr.length; i++) {
-            if (arr[i] > largest) {
+            if (arr[li] > largest) {
                 largest = arr[i];
             }
         }
