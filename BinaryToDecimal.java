@@ -18,5 +18,7 @@ public class BinaryToDecimal {
             }
         }
         return decimalValue;
+        sc.close();
+        
     }
 }
